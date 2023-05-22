@@ -6,7 +6,7 @@ spring:
     url: jdbc:postgresql://containers-us-west-50.railway.app:5895/railway
   jpa:
     hibernate:
-      ddl-auto: validate
+      ddl-auto: update
   servlet:
     multipart:
       max-file-size: 5MB
