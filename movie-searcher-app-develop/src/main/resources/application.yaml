@@ -1,9 +1,9 @@
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    username: ${PROD_DB_USERNAME}
-    password: ${PROD_DB_PASSWORD}
-    url: jdbc:postgresql://${PROD_DB_HOST}:${PROD_DB_PORT}/${PROD_DB_NAME}
+    username: postgres
+    password: v1OLYHaEYgTfolx9U1rV
+    url: jdbc:postgresql://containers-us-west-50.railway.app:5895/railway
   jpa:
     hibernate:
       ddl-auto: validate
