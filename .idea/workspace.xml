@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ec4b25a-6340-4835-ad99-ff3befeb4e17" name="Changes" comment="changed project structure" />
+    <list default="true" id="1ec4b25a-6340-4835-ad99-ff3befeb4e17" name="Changes" comment="add schema" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -122,7 +122,7 @@
       <updated>1684323108434</updated>
       <workItem from="1684323110810" duration="61338000" />
       <workItem from="1684486779295" duration="3741000" />
-      <workItem from="1684765586752" duration="7331000" />
+      <workItem from="1684765586752" duration="8071000" />
     </task>
     <task id="LOCAL-00001" summary="changed application.yaml для railway">
       <created>1684775253785</created>
@@ -152,7 +152,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684779826957</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add schema">
+      <created>1684781093337</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684781093337</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add schema">
+      <created>1684782091385</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684782091385</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +188,7 @@
     <MESSAGE value="add tasks" />
     <MESSAGE value="changed yaml" />
     <MESSAGE value="changed project structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed project structure" />
+    <MESSAGE value="add schema" />
+    <option name="LAST_COMMIT_MESSAGE" value="add schema" />
   </component>
 </project>
