@@ -8,6 +8,14 @@ group = 'ru.kpfu.itis.vaskina'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '17'
 
+tasks.jar {
+    enabled = false
+    manifest {
+        attributes["Main-Class"] = "ru/kpfu/itis/vaskina/moviesearcherapp/MovieSearcherAppApplication"
+    }
+}
+
+
 configurations {
     compileOnly {
         extendsFrom annotationProcessor
