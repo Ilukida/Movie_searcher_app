@@ -12,9 +12,6 @@ create table image_metadata
     width       integer
 );
 
-alter table image_metadata
-    owner to postgres;
-
 create table users
 (
     id                uuid         not null
@@ -34,9 +31,6 @@ create table users
         references image_metadata
 );
 
-alter table users
-    owner to postgres;
-
 create table genre
 (
     id                uuid not null
@@ -50,9 +44,6 @@ create table genre
     name              varchar(255),
     description       varchar(1024)
 );
-
-alter table genre
-    owner to postgres;
 
 create table person
 (
@@ -69,9 +60,6 @@ create table person
     middle_name       varchar(64),
     description       varchar(1024)
 );
-
-alter table person
-    owner to postgres;
 
 create table movie
 (
@@ -94,9 +82,6 @@ create table movie
             on delete cascade
 );
 
-alter table movie
-    owner to postgres;
-
 create table movie_person
 (
     movie_id  uuid
@@ -108,9 +93,6 @@ create table movie_person
             references person
             on delete cascade
 );
-
-alter table movie_person
-    owner to postgres;
 
 create table review
 (
@@ -131,9 +113,6 @@ create table review
             references movie
             on delete cascade
 );
-
-alter table review
-    owner to postgres;
 
 create trigger avg_rating
     after insert
@@ -159,9 +138,6 @@ create table genre_commentary
             on delete cascade
 );
 
-alter table genre_commentary
-    owner to postgres;
-
 create table person_commentary
 (
     id          uuid not null
@@ -179,9 +155,6 @@ create table person_commentary
             references person
             on delete cascade
 );
-
-alter table person_commentary
-    owner to postgres;
 
 create table movie_commentary
 (
@@ -201,9 +174,6 @@ create table movie_commentary
             on delete cascade
 );
 
-alter table movie_commentary
-    owner to postgres;
-
 create table roles
 (
     id          uuid not null
@@ -213,9 +183,6 @@ create table roles
     create_date timestamp default now(),
     update_date timestamp default now()
 );
-
-alter table roles
-    owner to postgres;
 
 create table user_roles
 (
@@ -228,7 +195,4 @@ create table user_roles
             references roles
             on delete cascade
 );
-
-alter table user_roles
-    owner to postgres;
 
